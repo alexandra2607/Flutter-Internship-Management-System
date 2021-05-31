@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:internship_management_system/components/nav_bar.dart';
-import 'package:internship_management_system/components/view_job_stud.dart';
+import 'package:internship_management_system/components/student/nav_bar.dart';
+import 'package:internship_management_system/components/student/view_job_stud.dart';
 
 
 class StudentHome extends StatelessWidget {

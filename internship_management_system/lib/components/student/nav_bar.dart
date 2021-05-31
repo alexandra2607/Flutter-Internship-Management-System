@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:internship_management_system/screens/LogIn.dart';
+import 'package:internship_management_system/signature/main_signature.dart';
 
 class NavigationBar extends StatelessWidget {
   @override
@@ -26,8 +27,8 @@ class NavigationBar extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topRight,
                   colors: [
-                    Colors.orange[600],
-	                  Colors.orange[800]
+	                  Colors.orange[200],
+                    Colors.orangeAccent[400],
                   ]
                 ),
                 ),
@@ -37,11 +38,13 @@ class NavigationBar extends StatelessWidget {
             title: Text('Edit profile'),
             onTap: () => {},
           ),
+          Divider(),
           ListTile(
             leading: Icon(Icons.picture_as_pdf_sharp),
             title: Text('Sign convention'),
-            onTap: () => {},
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SignatureAll()),),
           ),
+          Divider(),
           ListTile(
             leading: Icon(Icons.exit_to_app),
             title: Text('Exit'),

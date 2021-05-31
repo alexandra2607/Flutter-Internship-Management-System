@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:internship_management_system/screens/company_home.dart';
-import 'package:internship_management_system/screens/dean_home.dart';
-import 'package:internship_management_system/screens/student_home.dart';
+import 'package:internship_management_system/screens/company/company_home.dart';
+import 'package:internship_management_system/screens/dean/dean_home.dart';
+import 'package:internship_management_system/screens/student/student_home.dart';
+
 
 class LogInScreen extends StatefulWidget {
   @override
