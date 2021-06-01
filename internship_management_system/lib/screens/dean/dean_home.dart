@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:hover_effect/hover_effect.dart';
 import 'package:internship_management_system/screens/LogIn.dart';
+import 'package:internship_management_system/screens/dean/create_student_account.dart';
 import 'package:internship_management_system/signature/main_signature.dart';
 
 class DeanHome extends StatefulWidget {
@@ -125,7 +126,8 @@ class _DeanHomeState extends State<DeanHome> {
                             },
                             depth: 10,
                             depthColor: Colors.grey[500],
-                            onTap: () => print('Hello, World!'),
+                            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => CreateStudentAccount
+                            ()),),
                             shadow: BoxShadow(color: Colors.black54, blurRadius: 10, spreadRadius: -20, offset: Offset(0, 40)),
                           ),
                         ),
