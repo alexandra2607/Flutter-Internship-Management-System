@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:internship_management_system/components/company/jobs/model/todo.dart';
 import 'package:internship_management_system/components/company/jobs/utils.dart';
 
+
 class FirebaseApi {
   static Future<String> createTodo(Todo todo) async {
     final docTodo = FirebaseFirestore.instance.collection('todo').doc();

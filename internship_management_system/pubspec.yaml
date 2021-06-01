@@ -43,6 +43,10 @@ dev_dependencies:
   provider: ^5.0.0
   signature: ^4.1.1
   simple_animations: ^3.1.1
+  stream_transform: ^2.0.0
+  line_awesome_flutter: ^1.0.1
+  flutter_screenutil: ^1.0.2
+  animated_theme_switcher: ^1.0.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

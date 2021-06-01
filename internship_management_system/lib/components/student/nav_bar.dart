@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:internship_management_system/components/student/profile/profile_page.dart';
 import 'package:internship_management_system/screens/LogIn.dart';
 import 'package:internship_management_system/signature/main_signature.dart';
 
@@ -36,7 +37,8 @@ class NavigationBar extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.edit),
             title: Text('Edit profile'),
-            onTap: () => {},
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage
+            ()),),
           ),
           Divider(),
           ListTile(

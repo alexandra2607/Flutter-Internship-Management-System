@@ -39,12 +39,6 @@ class NavigationBarCompany extends StatelessWidget {
           ),
           Divider(),
           ListTile(
-            leading: Icon(Icons.picture_as_pdf_sharp),
-            title: Text('Sign convention'),
-            onTap: () => {},
-          ),
-          Divider(),
-          ListTile(
             leading: Icon(Icons.exit_to_app),
             title: Text('Exit'),
             onTap: () => {

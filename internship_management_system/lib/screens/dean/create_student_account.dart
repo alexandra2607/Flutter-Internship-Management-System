@@ -60,9 +60,7 @@ class _CreateStudentAccountState extends State<CreateStudentAccount> {
           ),
           Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-          
-           
+          children: [ 
                InkWell(
                        onTap: () {
                          try {
@@ -78,7 +76,6 @@ class _CreateStudentAccountState extends State<CreateStudentAccount> {
                               }
                             }
                           }
-                          //add notification
                         },
                         child: Container(        
 	                      height: 50,
@@ -93,7 +90,7 @@ class _CreateStudentAccountState extends State<CreateStudentAccount> {
 	                      ),
 	                      child:
                        Center(
-	                        child: Text("Login", 
+	                        child: Text("Create Account", 
                         style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
 	                      ),
 	                  ),

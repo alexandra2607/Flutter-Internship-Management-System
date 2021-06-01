@@ -118,7 +118,7 @@ class _TodoListState extends State<TodoList> {
                 title: Row(
                   children: [
                     Text(
-                      "Add Todo",
+                      "Add internship",
                       style: TextStyle(
                         fontSize: 20,
                         color: Colors.white,
@@ -145,11 +145,13 @@ class _TodoListState extends State<TodoList> {
                       color: Colors.white,
                     ),
                     autofocus: true,
-                    decoration: InputDecoration(
-                      hintText: "eg. exercise",
+                    decoration:
+                     InputDecoration(
+                      hintText: "internship",
                       hintStyle: TextStyle(color: Colors.white70),
                       border: InputBorder.none,
                     ),
+                    
                   ),
                   SizedBox(height: 20),
                   SizedBox(

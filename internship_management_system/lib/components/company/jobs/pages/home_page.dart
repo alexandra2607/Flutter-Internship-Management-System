@@ -57,10 +57,8 @@ class _HomePageState extends State<HomePage> {
                 return buildText('Something Went Wrong Try later');
               } else {
                 final todos = snapshot.data;
-
                 final provider = Provider.of<TodosProvider>(context);
                 provider.setTodos(todos);
-
                 return tabs[selectedIndex];
               }
           }

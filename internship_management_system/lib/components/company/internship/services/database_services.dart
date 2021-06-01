@@ -26,7 +26,8 @@ class DatabaseService {
     if (snapshot != null) {
       return snapshot.docs.map((e) {
         return Todo(
-          
+          title: e.get('title'),
+          isComplet: e.get('isComplet'),
           uid: e.id,
         );
       }).toList();
